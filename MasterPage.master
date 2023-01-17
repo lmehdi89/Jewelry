@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>  <!DOCTYPE html>  <html xmlns="http://www.w3.org/1999/xhtml"> <head runat="server">     <title></title>     <asp:ContentPlaceHolder id="head" runat="server">     </asp:ContentPlaceHolder>     <meta charset="utf-8"> 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 	 	<!-- Mobile meta for responsive view --> 	<meta name="viewport" content="width=device-width, initial-scale=1"> 	 	<!--  		Normalize.css makes browsers render all elements 		more consistently and in line with modern standards  	--> 	<link rel="stylesheet" href="css/normalize.css"> 	 	<!-- Global Style --> 	<link rel="stylesheet" href="css/main.css"> 	 	<!-- Style of Responsive Mega menu --> 	<link rel="stylesheet" href="css/2-second-layout.css"> 	 	<!-- Font awesome --> 	<link rel="stylesheet" href="css/font-awesome.min.css"> 	 </head> <body>     <form id="form1" runat="server">          <table align="right">      <tr>                 <td>                         <div> 		<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">                  </asp:ContentPlaceHolder>                     </div>          </td>         <td> 
+
+	<nav>
+		
+		<ul class="puerto-menu">
+			<li>
+				<a href="">
+					<i class="fa fa-home"></i>
+					<p>
+						<strong>Home</strong>
+						<small>sweet home</small>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a href="" class="active">
+					<i class="fa fa-edit"></i>
+					<p>
+						<strong>About us</strong>
+						<small>sweet home</small>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="fa fa-gift"></i>
+					<p>
+						<strong>Features</strong>
+						<small>sweet home</small>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="fa fa-globe"></i>
+					<p>
+						<strong>News</strong>
+						<small>sweet home</small>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a href="" class="hover">
+					<i class="fa fa-comments-o"></i>
+					<p>
+						<strong>Blog</strong>
+						<small>what they say</small>
+					</p>
+				</a>
+				<ul>
+					<li><a href="#"><i class="fa fa-globe"></i>Mission</a></li>
+					<li>
+						<a href="#" class="hover"><i class="fa fa-group"></i>Our Team</a>
+						<ul>
+							<li><a href="#"><i class="fa fa-female"></i>Leyla Sparks</a></li>
+							<li>
+								<a href="#" class="hover"><i class="fa fa-male"></i>Gleb Ismailov</a>
+								<ul>
+									<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
+									<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><i class="fa fa-trophy"></i>Rewards</a></li>
+					<li><a href="#"><i class="fa fa-certificate"></i>Certificates</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="">
+					<i class="fa fa-picture-o"></i>
+					<p>
+						<strong>Portfolio</strong>
+						<small>sweet home</small>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="fa fa-envelope-o"></i>
+					<p>
+						<strong>Contacts</strong>
+						<small>drop a line</small>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a class="search">
+					<input type="text" value="search ...">
+					<button><i class="fa fa-search"></i></button>
+				</a>
+			</li>
+			<!--<li><a href=""><i class="fa fa-bullhorn"></i>News</a></li>-->
+		</ul>
+	</nav>
+	
+</div>         </td>      </tr>  </table>     </form>   </body> </html> 
